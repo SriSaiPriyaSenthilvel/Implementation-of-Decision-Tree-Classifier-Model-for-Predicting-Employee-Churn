@@ -57,7 +57,7 @@ accuracy
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 ```
 ## Output:
-# d.head()
+# df.head()
 
 ![image](https://github.com/SriSaiPriyaSenthilvel/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119475702/fd0d5932-db99-4661-8351-783f16f7b2b6)
 

@@ -39,7 +39,8 @@ df.head()
 x=df[['satisfaction_level','last_evaluation','number_project','average_montly_hours',
       'time_spend_company','Work_accident','promotion_last_5years','salary']]
 x.head()
-
+```
+```
 y=df['left']
 
 from sklearn.model_selection import train_test_split as tts

@@ -41,8 +41,6 @@ from sklearn.tree import DecisionTreeClassifier
 dt=DecisionTreeClassifier(criterion='entropy')
 dt.fit(Xtrain,Ytrain)
 Ypred=dt.predict(Xtest)
-```
-```
 from sklearn import metrics
 accuracy=metrics.accuracy_score(Ytest,Ypred)
 accuracy
